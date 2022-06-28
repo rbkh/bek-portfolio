@@ -5,6 +5,8 @@ function App() {
   return (
     <div className="App">
       <header className="AppHeader">   
+        <a target="_blank" href="https://github.com/rbkh/bek-portfolio">github</a>
+        <a target="_blank" href="https://www.linkedin.com/in/rebekahfelker/">linkedin</a>
       </header>
       <div className="Main">
         <h1 className="Title">Rebekah Felker</h1>

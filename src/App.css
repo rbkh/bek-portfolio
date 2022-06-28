@@ -8,6 +8,14 @@
  height: 30px;
  background-color: #84fab0;
  width: 100%;
+ display: flex;
+ flex-flow: row;
+ justify-content: flex-end;
+ align-items: center;
+}
+
+.AppHeader a {
+  padding: 0 5px 0;
 }
 
 .Main {
@@ -31,16 +39,3 @@
 .Title:hover {
   background-size: 100% 88%;
 }
-
-/* .App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
