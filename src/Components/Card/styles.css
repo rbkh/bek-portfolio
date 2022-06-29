@@ -1,5 +1,59 @@
 .projectCard {
-    width: 300px;    
-    padding: 1rem;
-    border: 1px solid #000;
+    border: 0 solid #000;
+    border-width: 0 0 1.5px;
+    margin: 0 auto 15em;
+    min-height: 200px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    /* padding-bottom: 5em; */
+}
+
+.projectCard div {
+    display: flex;
+    flex-direction: column;
+}
+
+.projectCard h2 {
+    margin: 0;
+    font-size: 3em;
+    max-width: 380px;
+}
+
+.projectService {
+    padding: 6px 0;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.projectService p {
+    font-weight: 900;
+    margin: 0 0.5em;
+    font-size: 1.5em;
+}
+
+.projectInfo {
+    padding: 0 3em 1.5em;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.projectInfo p {
+    font-size: 1.3em;
+}
+
+.projectYear {
+    justify-content: flex-end;
+}
+
+.projectYear div {
+    background-color: black;
+    /* margin-bottom: 2px; */
+}
+
+.projectYear p {
+    margin: -4px 5px;
+    color: #f9dfec;
+    font-weight: 900;
+    font-size: 2em;
 }

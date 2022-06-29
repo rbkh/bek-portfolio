@@ -3,8 +3,9 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    margin: 0 auto 11em;
+    margin: 0 auto;
     height: 100vh;
+    padding: 1em;
   }
   
   .Title {
@@ -16,4 +17,8 @@
   .SubTitle {
     font-size: 2em;
     margin: 0 0 1em;
+  }
+
+  .MainContainer a {
+    padding-bottom: 10em;
   }

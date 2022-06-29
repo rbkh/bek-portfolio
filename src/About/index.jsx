@@ -11,6 +11,8 @@ function About() {
             service={project.service}
             url={project.url}
             key={project.name}
+            year={project.year}
+            tagline={project.tagline}
         />
     ));
 

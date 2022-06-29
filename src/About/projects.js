@@ -1,68 +1,95 @@
 const PastProjects = [
     {
-        name: "MyBodyModel",
+        name: "Rebekah Felker Portfolio",
+        tagline: "A simple React application using AWS Amplify",
         service: [
-            "Product Discovery",
-            "Roadmapping",
-            "React",
-            "MVP"
+            "React.js",
+            "CSS",
+            "React Router"
         ],
+        year: "2022",
         url: "https://app.mybodymodel.com/"
     },
     {
         name: "Acadian Asset Management",
+        tagline: "Embedded engineer providing a React/Typescript boilerplate for internal applications",
         service: [
-            "React/Typescript",
-            "FinTech",
-            "Embedded Engineer",
+            "React.js",
+            "Typescript",
+            "CSS",
+            "Material UI",
+            "React Router",
+            "Redux"
         ],
+        year: "2019",
         url: "https://www.acadian-asset.com/"
     },
     {
-        name: "Big Room Studios",
+        name: "MyBodyModel",
+        tagline: "A lean MVP React application with a server-side image generation engine",
         service: [
-            "Custom Wordpress Theme",
+            "React.js",
+            "CSS",
+            "Material UI",
+            "React Router",
+            "Redux"
         ],
+        year: "2018",
+        url: "https://app.mybodymodel.com/"
+    },
+    {
+        name: "Big Room Studios",
+        tagline: "A custom Wordpress theme",
+        service: [
+            "HTML",
+            "CSS",
+            "PHP"
+        ],
+        year: "2017",
         url: "https://www.bigroomstudios.com/"
     },
     {
-        name: "Maine Island Trail Association",
-        service: [
-            "Custom Wordpress Theme",
-        ],
-        url: "https://mita.org/"
-    },
-    {
-        name: "Architalx",
-        service: [
-            "Custom Wordpress Theme",
-        ],
-        url: "https://www.architalx.org/"
-    },
-    {
         name: "School Law",
+        tagline: "A custom Wordpress theme",
         service: [
-            "Custom Wordpress Theme",
-            "eCommerce",
-            "Events",
+            "HTML",
+            "CSS",
+            "PHP"
         ],
+        year: "2017",
         url: "https://schoollaw.com/"
     },
     {
-        name: "NearPeer",
+        name: "Architalx",
+        tagline: "A custom Wordpress theme",
         service: [
-            "Product Discovery",
-            "Roadmapping",
-            "MVP"
+            "HTML",
+            "CSS",
+            "PHP"
         ],
-        url: "https://nearpeer.net/"
+        year: "2016",
+        url: "https://www.architalx.org/"
+    },
+    {
+        name: "Maine Island Trail Association",
+        tagline: "A custom Wordpress theme",
+        service: [
+            "HTML",
+            "CSS",
+            "PHP"
+        ],
+        year: "2016",
+        url: "https://mita.org/"
     },
     {       
         name: "Tributary Funds",
+        tagline: "A custom Wordpress theme",
         service: [
-            "Custom Wordpress Theme",
-            "FinTech",
+            "HTML",
+            "CSS",
+            "PHP"
         ],
+        year: "2016",
         url: "https://www.tributaryfunds.com/"
 }]
 

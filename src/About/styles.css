@@ -1,6 +1,9 @@
 .ProjectContainer {
-  display: grid;
+  /* display: grid;
   gap: 50px;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto; */
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 15em;
 }

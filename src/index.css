@@ -16,7 +16,7 @@ code {
     monospace;
 }
 
-h1 {
+h1, h2 {
   font-family: 'Righteous', serif;
   color: #000;
 }
