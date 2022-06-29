@@ -15,9 +15,8 @@ function About() {
     ));
 
     return (
-        <div className='MainContainer'>
-          <p>Past Projects</p>
-            {/* {project} */}
+        <div className='ProjectContainer'>
+            {project}
         </div>
     )
 }
