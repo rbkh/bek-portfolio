@@ -1,11 +1,11 @@
 import React from 'react';
-import './styles.css';
+import styles from './styles.module.css';
 import { Link } from "react-router-dom";
 
-function Header() {
+export default function Header() {
     return (
-        <header className="AppHeader">
-        <div className="ContentContainer">
+        <header className={styles.appHeader}>
+        <div className={styles.contentContainer}>
           <Link to="/">about</Link>
           <Link to="/about">past projects</Link>
           <a target="_blank" href="https://github.com/rbkh/bek-portfolio">github</a>
@@ -14,5 +14,3 @@ function Header() {
       </header>
     )
 }
-
-export default Header;

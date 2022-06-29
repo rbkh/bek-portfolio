@@ -1,9 +1,9 @@
 import React from 'react';
 import Card from '../Components/Card';
 import Projects from './projects';
-import './styles.css';
-;
-function About() {
+import styles from './styles.module.css';
+
+export default function About() {
 
     const project = Projects.map((project) => (
         <Card
@@ -17,10 +17,8 @@ function About() {
     ));
 
     return (
-        <div className='ProjectContainer'>
+        <div className={styles.projectContainer}>
             {project}
         </div>
     )
 }
-
-export default About;

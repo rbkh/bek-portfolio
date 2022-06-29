@@ -50,7 +50,7 @@ const PastProjects = [
     },
     {
         name: "School Law",
-        tagline: "A custom Wordpress theme",
+        tagline: "A custom Wordpress eCommerce theme supporting digital assets and events",
         service: [
             "HTML",
             "CSS",
@@ -61,7 +61,7 @@ const PastProjects = [
     },
     {
         name: "Architalx",
-        tagline: "A custom Wordpress theme",
+        tagline: "A custom-built Wordpress site cataloging an annual architecture lecture series",
         service: [
             "HTML",
             "CSS",
@@ -72,7 +72,7 @@ const PastProjects = [
     },
     {
         name: "Maine Island Trail Association",
-        tagline: "A custom Wordpress theme",
+        tagline: "A custom Wordpress site",
         service: [
             "HTML",
             "CSS",

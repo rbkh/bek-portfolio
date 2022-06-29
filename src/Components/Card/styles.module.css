@@ -1,12 +1,11 @@
 .projectCard {
     border: 0 solid #000;
     border-width: 0 0 1.5px;
-    margin: 0 auto 15em;
+    margin: 0 auto 4em;
     min-height: 200px;
     width: 80%;
     display: grid;
     grid-template-columns: 20% 60% 20%;
-    /* padding-bottom: 5em; */
 }
 
 .projectCard div {
@@ -28,12 +27,12 @@
 
 .projectService p {
     font-weight: 900;
-    margin: 0 0.5em;
+    margin: 0;
     font-size: 1.5em;
 }
 
 .projectInfo {
-    padding: 0 3em 1.5em;
+    padding: 0 3em 3em;
     align-items: flex-start;
     justify-content: flex-end;
 }
@@ -48,7 +47,6 @@
 
 .projectYear div {
     background-color: black;
-    /* margin-bottom: 2px; */
 }
 
 .projectYear p {

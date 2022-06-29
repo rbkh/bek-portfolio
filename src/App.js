@@ -4,7 +4,7 @@ import AppRoutes from './routes';
 import React from 'react';
 import Header from './Header';
 
-function App() {
+export default function App() {
 
   const routes = AppRoutes.map((routes) => (
 
@@ -22,5 +22,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
