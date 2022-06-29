@@ -1,7 +1,8 @@
 import './App.css';
-import { Link, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import AppRoutes from './routes';
 import React from 'react';
+import Header from './Header';
 
 function App() {
 
@@ -16,10 +17,7 @@ function App() {
 
   return (
     <div className="App">
-      <header className="AppHeader">   
-        <a target="_blank" href="https://github.com/rbkh/bek-portfolio">github</a>
-        <a target="_blank" href="https://www.linkedin.com/in/rebekahfelker/">linkedin</a>
-      </header>
+      <Header />
       <Routes>{routes}</Routes>
     </div>
   );

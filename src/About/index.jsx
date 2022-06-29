@@ -1,7 +1,8 @@
 import React from 'react';
 import Card from '../Components/Card';
 import Projects from './projects';
-
+import './styles.css';
+;
 function About() {
 
     const project = Projects.map((project) => (
@@ -14,9 +15,9 @@ function About() {
     ));
 
     return (
-        <div>
+        <div className='MainContainer'>
           <p>Past Projects</p>
-            {project}
+            {/* {project} */}
         </div>
     )
 }

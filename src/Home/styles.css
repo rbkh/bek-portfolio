@@ -1,0 +1,19 @@
+.MainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 0 auto 8em;
+    height: 100vh;
+  }
+  
+  .Title {
+    letter-spacing: -7px;
+    font-size: 12em;
+    margin: 0 0 0 -8px;
+  }
+  
+  .SubTitle {
+    font-size: 2em;
+    margin: 0 0 1em;
+  }

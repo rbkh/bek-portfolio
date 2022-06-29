@@ -2,40 +2,5 @@
   height: 100vh;
   display: flex; 
   flex-direction: column;
-}
-
-.AppHeader {
- height: 30px;
- background-color: #84fab0;
- width: 100%;
- display: flex;
- flex-flow: row;
- justify-content: flex-end;
- align-items: center;
-}
-
-.AppHeader a {
-  padding: 0 5px 0;
-}
-
-.Main {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  margin: 0 auto;
-  padding: 1rem;
-}
-
-.Title {
-  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-  background-repeat: no-repeat;
-  background-size: 100% 0.2em;
-  background-position: 0 81%;
-  transition: background-size 0.25s ease-in;
-}
-
-.Title:hover {
-  background-size: 100% 88%;
+  background-color: #f9dfec;
 }

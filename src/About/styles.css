@@ -1,0 +1,8 @@
+.MainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 0 auto 8em;
+    height: 100vh;
+  }

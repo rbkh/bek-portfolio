@@ -1,13 +1,13 @@
 import React from 'react';
-import '../App.css';
-import { Link, Route, Routes } from "react-router-dom";
+import './styles.css';
+import { Link } from "react-router-dom";
 
 function Home() {
     return (
-        <div className="Main">
+      <div className="MainContainer">
         <h1 className="Title">Rebekah Felker</h1>
-        <p>I’m a problem-solver who loves collaboration and developing strategies to take ideas from discovery through delivery. </p>
-        <Link to="/about">Past Projects</Link>
+        <p className="SubTitle">I’m a problem-solver who loves collaboration and developing strategies<br /> to take ideas from discovery through delivery. </p>
+        <a href="mailto:rebekahfelker@gmail.com" >send me an email</a>
       </div>
     )
 }
