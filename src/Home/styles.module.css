@@ -12,7 +12,7 @@
 .title {
   letter-spacing: -3px;
   font-size: 5em;
-  margin: 0;
+  margin: 0 0 0 -3px;
 }
 
 .subTitle {
@@ -27,6 +27,7 @@
 @media(min-width: 576px) {
   .title {
     font-size: 6em;
+    margin-left: -4px;
   }
 
   .subTitle {
@@ -35,16 +36,11 @@
   }
 }
 
-@media(min-width: 576px) and (max-width: 1200px) and (orientation: landscape) {
-  .mainContainer a {
-    padding-bottom: 1em;
-  }
-}
-
 @media(min-width: 768px) {
   .title {
     letter-spacing: -4px;
     font-size: 8em;
+    margin-left: -5px;
   }
   .subTitle {
     font-size: 1.6em;
@@ -63,9 +59,8 @@
   }
 
   .mainContainer a {
-    padding-bottom: 4em;
+    padding-bottom: 6em;
   }
-
 }
 
 @media(min-width: 1200px) {
@@ -76,6 +71,16 @@
   }
 
   .mainContainer a {
-    padding-bottom: 6em;
+    padding-bottom: 8em;
+  }
+}
+
+@media(min-width: 576px) and (max-width: 992px) and (max-height: 400px) and (orientation: landscape) {
+  .mainContainer a {
+    padding-bottom: 1em;
+  }
+
+  .title {
+    font-size: 5em;
   }
 }
