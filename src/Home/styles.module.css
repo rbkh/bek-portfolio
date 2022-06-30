@@ -6,19 +6,76 @@
   margin: 0 auto;
   height: 100vh;
   padding: 1em;
+  max-width: 1260px;
 }
 
 .title {
-  letter-spacing: -7px;
-  font-size: 12em;
-  margin: 0 0 0 -8px;
+  letter-spacing: -3px;
+  font-size: 5em;
+  margin: 0;
 }
 
 .subTitle {
-  font-size: 2em;
+  font-size: 1.2em;
   margin: 0 0 1em;
 }
 
 .mainContainer a {
-  padding-bottom: 10em;
+  padding-bottom: 3em;
+}
+
+@media(min-width: 576px) {
+  .title {
+    font-size: 6em;
+  }
+
+  .subTitle {
+    font-size: 1.2em;
+    margin: 0 3em 1em 0;
+  }
+}
+
+@media(min-width: 576px) and (max-width: 1200px) and (orientation: landscape) {
+  .mainContainer a {
+    padding-bottom: 1em;
+  }
+}
+
+@media(min-width: 768px) {
+  .title {
+    letter-spacing: -4px;
+    font-size: 8em;
+  }
+  .subTitle {
+    font-size: 1.6em;
+  }
+}
+
+@media(min-width: 992px) {
+  .title {
+    font-size: 8.5em;
+    letter-spacing: -5px;
+  }
+
+  .subTitle {
+    font-size: 2em;
+    margin: 0 4em 1em 0;
+  }
+
+  .mainContainer a {
+    padding-bottom: 4em;
+  }
+
+}
+
+@media(min-width: 1200px) {
+  .title {
+    letter-spacing: -7px;
+    font-size: 10em;
+    margin: 0 0 0 -8px;
+  }
+
+  .mainContainer a {
+    padding-bottom: 6em;
+  }
 }

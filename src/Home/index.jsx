@@ -6,7 +6,7 @@ export default function Home() {
     return (
       <div className={styles.mainContainer}>
         <h1 className={styles.title}>Rebekah Felker</h1>
-        <p className={styles.subTitle}>I’m a problem-solver who loves collaboration and developing strategies<br /> to take ideas from discovery through delivery. </p>
+        <p className={styles.subTitle}>I’m a problem-solver who loves collaboration and developing strategies to take ideas from discovery through delivery. </p>
         <a href="mailto:rebekahfelker@gmail.com" >send me an email</a>
       </div>
     )
