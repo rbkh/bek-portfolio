@@ -1,18 +1,19 @@
 const PastProjects = [
     {
         name: "Rebekah Felker Portfolio",
-        tagline: "A simple React application using AWS Amplify",
+        tagline: "A simple React app inspired by brutalist and minimalist design trends",
         service: [
             "React.js",
             "CSS",
-            "React Router"
+            "React Router",
+            "AWS Amplify"
         ],
-        year: "2022",
+        year: "2022/Self",
         url: "https://app.mybodymodel.com/"
     },
     {
         name: "Acadian Asset Management",
-        tagline: "Embedded engineer providing a React/Typescript boilerplate for internal applications",
+        tagline: "Embedded engineer developing a React/Typescript boilerplate to be used for internal applications",
         service: [
             "React.js",
             "Typescript",
@@ -21,7 +22,7 @@ const PastProjects = [
             "React Router",
             "Redux"
         ],
-        year: "2019",
+        year: "2019/BRS",
         url: "https://www.acadian-asset.com/"
     },
     {
@@ -34,18 +35,18 @@ const PastProjects = [
             "React Router",
             "Redux"
         ],
-        year: "2018",
+        year: "2018/BRS",
         url: "https://app.mybodymodel.com/"
     },
     {
         name: "Big Room Studios",
-        tagline: "A custom Wordpress theme",
+        tagline: "A custom Wordpress theme to offer an application development company better content management",
         service: [
             "HTML",
             "CSS",
             "PHP"
         ],
-        year: "2017",
+        year: "2017/BRS",
         url: "https://www.bigroomstudios.com/"
     },
     {
@@ -56,40 +57,40 @@ const PastProjects = [
             "CSS",
             "PHP"
         ],
-        year: "2017",
+        year: "2017/BRS",
         url: "https://schoollaw.com/"
     },
     {
         name: "Architalx",
-        tagline: "A custom-built Wordpress site cataloging an annual architecture lecture series",
+        tagline: "A custom-built Wordpress website cataloging an annual architecture lecture series",
         service: [
             "HTML",
             "CSS",
             "PHP"
         ],
-        year: "2016",
+        year: "2016/BRS",
         url: "https://www.architalx.org/"
     },
     {
         name: "Maine Island Trail Association",
-        tagline: "A custom Wordpress site",
+        tagline: "A custom Wordpress website for a local non-profit",
         service: [
             "HTML",
             "CSS",
             "PHP"
         ],
-        year: "2016",
+        year: "2016/BRS",
         url: "https://mita.org/"
     },
     {       
         name: "Tributary Funds",
-        tagline: "A custom Wordpress theme",
+        tagline: "A straight-forward custom Wordpress website for a fund management company",
         service: [
             "HTML",
             "CSS",
             "PHP"
         ],
-        year: "2016",
+        year: "2016/BRS",
         url: "https://www.tributaryfunds.com/"
 }]
 
