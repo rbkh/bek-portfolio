@@ -1,7 +1,7 @@
 .projectCard {
     border: 0 solid #000;
     border-width: 0 0 1.5px;
-    margin: 0 auto 4em;
+    margin: 0 1em 4em;
     min-height: 200px;
     display: grid;
     grid-template-columns: 30% 70%;
@@ -19,7 +19,7 @@
 }
 
 .projectService {
-    padding: 6px 0;
+    padding: 2px 0;
     align-items: flex-end;
     justify-content: flex-start;
 }
@@ -28,12 +28,13 @@
     font-weight: 900;
     margin: 0;
     font-size: 1em;
+    text-align: end;
 }
 
 .projectInfo {
     padding: 0 1em 1em;
     align-items: flex-start;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
 }
 
 .projectInfo p {
@@ -49,6 +50,7 @@
 .projectYear div {
     background-color: black;
     margin-top: 1em;
+    align-items: flex-end;
 }
 
 .projectYear p {
@@ -61,8 +63,33 @@
 @media(min-width: 576px) {
 
     .projectCard {
-        width: 70%;
+        width: 80%;
+        margin: 0 auto 4em;
     }
+
+    .projectCard h2 {
+        font-size: 2.2em;
+    }
+
+    .projectYear p {
+        font-size: 1.3em;
+    }
+}
+
+@media(min-width: 768px) {
+    .projectCard {
+        grid-template-columns: 25% 50% 25%;
+        width: 80%;
+    }
+
+    .projectYear div {
+        align-items: flex-start;
+    }
+
+    .projectService p {
+        font-size: 1.25em;
+    }
+
 }
 
 @media(min-width: 992px) {
@@ -72,9 +99,13 @@
         width: 80%;
     }
 
-    .projectCard h2 {
+    /* .projectCard h2 {
         font-size: 2em;
-    }
+    } */
+
+    /* .projectService {
+        padding: 6px 0;    
+    } */
 
     .projectService p {
         font-size: 1.5em;
