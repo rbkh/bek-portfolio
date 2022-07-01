@@ -2,7 +2,11 @@
   width: 100%;
   border-bottom: 1.5px solid #000;
   position: fixed;
-  background-color: #f9dfeb;
+  /* background-color: #f9dfeb; */
+
+  background: rgb(249 223 235 / 35%);
+  backdrop-filter: blur( 5.5px );
+  -webkit-backdrop-filter: blur( 5.5px );
 }
    
 .contentContainer {
