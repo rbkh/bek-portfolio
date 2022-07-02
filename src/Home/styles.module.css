@@ -4,8 +4,8 @@
   justify-content: flex-end;
   align-items: flex-start;
   margin: 0 auto;
+  padding: 0 1em;
   height: 100vh;
-  padding: 1em;
   max-width: 1260px;
 }
 
@@ -17,11 +17,12 @@
 
 .subTitle {
   font-size: 1.2em;
-  margin: 0 0 1em;
+  margin: 0 0 1em 0;
 }
 
 .mainContainer a {
-  padding-bottom: 3em;
+  padding-bottom: 2em;
+  font-size: 0.9em;
 }
 
 @media(min-width: 576px) {
@@ -32,18 +33,26 @@
 
   .subTitle {
     font-size: 1.2em;
-    margin: 0 3em 1em 0;
+    margin: 0 25% 1em 0;
+  }
+
+  .mainContainer a {
+    padding-bottom: 5%;
   }
 }
 
 @media(min-width: 768px) {
   .title {
     letter-spacing: -4px;
-    font-size: 8em;
+    font-size: 7em;
     margin-left: -5px;
   }
   .subTitle {
-    font-size: 1.6em;
+    font-size: 1.4em;
+  }
+
+  .mainContainer a {
+    font-size: 1.2em;
   }
 }
 
@@ -54,13 +63,10 @@
   }
 
   .subTitle {
-    font-size: 2em;
-    margin: 0 4em 1em 0;
+    font-size: 1.5em;
+    /* margin: 0 12em 1em 0; */
   }
 
-  .mainContainer a {
-    padding-bottom: 6em;
-  }
 }
 
 @media(min-width: 1200px) {
@@ -70,8 +76,14 @@
     margin: 0 0 0 -8px;
   }
 
+  .subTitle {
+    font-size: 1.8em;
+    /* margin: 0 9em 1em 0; */
+  }
+
   .mainContainer a {
-    padding-bottom: 8em;
+    padding-bottom: 4em;
+    font-size: 1.4em;
   }
 }
 
