@@ -9,18 +9,16 @@ export default function Card(props) {
 
     return (
         <div className={styles.projectCard}>
-             <div className={styles.projectService}>
-                {services}
-            </div>
+            <h2 className={styles.title}>{props.name}</h2>
             <div className={styles.projectInfo}>
-                <h2>{props.name}</h2>
-                <p>{props.tagline}</p>
-                <a target="_blank" href={props.url}>See Project &#10146;</a>
+                <div className={styles.projectService}>
+                    {services}
+                </div>
+                    <p className={styles.tagline}>{props.tagline}</p>
+                    <a target="_blank" href={props.url}>See Project &#10146;</a>
             </div>
             <div className={styles.projectYear}>
-                <div>                
-                    <p>{props.year}</p>
-                </div>
+                <p>{props.year}</p>
             </div>
         </div>
     )
