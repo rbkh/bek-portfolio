@@ -18,7 +18,10 @@ export default function About() {
 
     return (
         <div className={styles.projectContainer}>
-            {project}
+                {project}
+                <div className={styles.textContainer}>
+                    <p>This is a sampling of work owned by me, or are publicly-facing websites that I contributed to on a larger team. Due to employer contracts and NDAs, many past projects cannot be disclosed.</p>
+                </div>
         </div>
     )
 }

@@ -26,14 +26,7 @@
 
 @media(min-width: 768px) {
 
-  .appHeader {
-    padding: 12px 0;
-  }  
   .contentContainer {
     justify-content: flex-end;
-  }
-
-  .appHeader a {
-    padding: 0 16px;
   }
 }

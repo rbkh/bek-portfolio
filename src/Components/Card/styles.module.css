@@ -4,7 +4,7 @@
     border: 3px solid black;
     display: flex;
     flex-direction: column;
-    margin: 10% 1rem;
+    margin: 1rem;
 }
 
 .title {
@@ -39,10 +39,9 @@
 }
 
 .projectYear p {
-    margin: 0 5px;
     color: #f9dfec;
     font-weight: 900;
-    margin: -3px 10px -6px;
+    margin: -2px 9px -4px;
     font-size: 2em;
 }
 
@@ -50,7 +49,6 @@
 
    .title {
        padding: 3rem;
-
    }
 
    .projectInfo {

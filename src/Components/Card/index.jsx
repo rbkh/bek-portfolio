@@ -15,7 +15,7 @@ export default function Card(props) {
                     {services}
                 </div>
                     <p className={styles.tagline}>{props.tagline}</p>
-                    <a target="_blank" href={props.url}>See Project &#10146;</a>
+                    <a target="_blank" href={props.url}>See Codebase &#10146;</a>
             </div>
             <div className={styles.projectYear}>
                 <p>{props.year}</p>
