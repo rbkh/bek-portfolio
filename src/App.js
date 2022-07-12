@@ -6,19 +6,19 @@ import Header from './Header';
 
 export default function App() {
 
-  const routes = AppRoutes.map((routes) => (
+    const routes = AppRoutes.map((routes) => (
 
-    <Route
-      path={routes.path}
-      element={routes.element}
-      key={routes.label}
-    />
-  ));
+        <Route
+            path={routes.path}
+            element={routes.element}
+            key={routes.label}
+        />
+    ));
 
-  return (
-    <div className="App">
-      <Header />
-      <Routes>{routes}</Routes>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header />
+            <Routes>{routes}</Routes>
+        </div>
+    );
 }

@@ -7,6 +7,17 @@ export default function Card(props) {
         <p key={service}>{service}</p>
     ));
 
+    function renderLink(props) {
+
+        const linkText = props.projectType == "self" ? "See Codebase" : "See Website"
+
+        if (!props.url) return null;
+
+        return (
+            <a target="_blank" href={props.url}>{linkText} &#10146;</a>
+        )
+    }
+
     return (
         <div className={styles.projectCard}>
             <h2 className={styles.title}>{props.name}</h2>
@@ -14,8 +25,8 @@ export default function Card(props) {
                 <div className={styles.projectService}>
                     {services}
                 </div>
-                    <p className={styles.tagline}>{props.tagline}</p>
-                    <a target="_blank" href={props.url}>See Codebase &#10146;</a>
+                <p className={styles.tagline}>{props.tagline}</p>
+                {renderLink(props)}
             </div>
             <div className={styles.projectYear}>
                 <p>{props.year}</p>

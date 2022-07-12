@@ -4,29 +4,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;700;900');
 
 body {
-  margin: 0;
-  font-family: 'Frank Ruhl Libre', Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #f9dfec;
+    margin: 0;
+    font-family: 'Frank Ruhl Libre', Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f9dfec;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
 }
 
-h1, h2 {
-  font-family: 'Righteous', serif;
-  color: #000;
+h1,
+h2 {
+    font-family: 'Righteous', serif;
+    color: #000;
 }
 
-a, button {
-  font-family: 'Frank Ruhl Libre', Arial, Helvetica, sans-serif;
-  font-weight: 700;
-  color: #000;
+a,
+button {
+    font-family: 'Frank Ruhl Libre', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #000;
 }
 
 a:hover {
-  text-decoration: none;
+    text-decoration: none;
 }

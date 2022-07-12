@@ -30,7 +30,7 @@
 }
 
 .tagline {
-    font-size: 1.3em;    
+    font-size: 1.3em;
 }
 
 .projectYear {
@@ -47,11 +47,11 @@
 
 @media(min-width: 576px) {
 
-   .title {
-       padding: 3rem;
-   }
+    .title {
+        padding: 3rem;
+    }
 
-   .projectInfo {
+    .projectInfo {
         padding: 0 3rem 3rem;
     }
 }
