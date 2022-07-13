@@ -14,7 +14,7 @@ const PastProjects = [
     },
     {
         name: "Confidential Company",
-        tagline: "A React/Typescript boilerplate to be used for internal FinTech applications",
+        tagline: "A React/Typescript boilerplate for company FinTech applications",
         service: [
             "React.js",
             "Typescript",
