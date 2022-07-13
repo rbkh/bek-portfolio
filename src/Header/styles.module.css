@@ -5,6 +5,7 @@
     background: rgb(249 223 235 / 35%);
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
+    z-index: 99;
 }
 
 .contentContainer {
