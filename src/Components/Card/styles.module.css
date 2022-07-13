@@ -1,0 +1,57 @@
+.projectCard {
+    height: 600px;
+    max-width: 400px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.cardTitle {
+    margin: 0;
+    font-size: 2em;
+    padding: 2rem;
+}
+
+.projectService {
+    padding: 2px 0;
+}
+
+.projectService p {
+    font-weight: 900;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.cardInfo {
+    padding: 0 2rem 2rem;
+    text-align: end;
+    margin-bottom: auto;
+}
+
+.cardTagline {
+    font-size: 1.3em;
+}
+
+.projectYear {
+    background-color: black;
+    width: 100%;
+}
+
+.projectYear p {
+    color: #f9dfec;
+    font-weight: 900;
+    margin: -2px 9px -4px;
+    font-size: 2em;
+}
+
+@media(min-width: 576px) {
+
+    .cardTitle {
+        padding: 3rem;
+    }
+
+    .cardInfo {
+        padding: 0 3rem 3rem;
+    }
+}
