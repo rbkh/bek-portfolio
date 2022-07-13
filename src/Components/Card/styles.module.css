@@ -7,7 +7,7 @@
     margin: 1rem;
 }
 
-.title {
+.cardTitle {
     margin: 0;
     font-size: 2em;
     padding: 2rem;
@@ -23,13 +23,13 @@
     font-size: 1.5em;
 }
 
-.projectInfo {
+.cardInfo {
     padding: 0 2rem 2rem;
     text-align: end;
     margin-bottom: auto;
 }
 
-.tagline {
+.cardTagline {
     font-size: 1.3em;
 }
 
@@ -47,11 +47,11 @@
 
 @media(min-width: 576px) {
 
-    .title {
+    .cardTitle {
         padding: 3rem;
     }
 
-    .projectInfo {
+    .cardInfo {
         padding: 0 3rem 3rem;
     }
 }

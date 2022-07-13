@@ -4,16 +4,18 @@ import { NavLink } from "react-router-dom";
 
 export default function Header() {
 
+    const { appHeader, contentContainer, linkStyle } = styles;
+
     return (
-        <header className={styles.appHeader}>
-            <div className={styles.contentContainer}>
+        <header className={appHeader}>
+            <div className={contentContainer}>
                 <NavLink
                     to="/"
-                    className={({ isActive }) => isActive ? `${styles.linkStyle}` : undefined}
+                    className={({ isActive }) => isActive ? `${linkStyle}` : undefined}
                 >about</NavLink>
                 <NavLink
                     to="/about"
-                    className={({ isActive }) => isActive ? `${styles.linkStyle}` : undefined}
+                    className={({ isActive }) => isActive ? `${linkStyle}` : undefined}
                 >past projects</NavLink>
                 <a target="_blank" href="https://github.com/rbkh/bek-portfolio">github</a>
                 <a target="_blank" href="https://www.linkedin.com/in/rebekahfelker/">linkedin</a>

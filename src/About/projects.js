@@ -39,62 +39,7 @@ const PastProjects = [
         year: "2018",
         projectType: "customer",
         url: "https://app.mybodymodel.com/"
-    },
-    // {
-    //     name: "Big Room Studios",
-    //     tagline: "A custom Wordpress theme to offer an application development company better content management",
-    //     service: [
-    //         "HTML",
-    //         "CSS",
-    //         "PHP"
-    //     ],
-    //     year: "2017",
-    //     url: "https://www.bigroomstudios.com/"
-    // },
-    // {
-    //     name: "School Law",
-    //     tagline: "A custom Wordpress eCommerce theme supporting digital assets and events",
-    //     service: [
-    //         "HTML",
-    //         "CSS",
-    //         "PHP"
-    //     ],
-    //     year: "2017",
-    //     url: "https://schoollaw.com/"
-    // },
-    // {
-    //     name: "Architalx",
-    //     tagline: "A custom-built Wordpress website cataloging an annual architecture lecture series",
-    //     service: [
-    //         "HTML",
-    //         "CSS",
-    //         "PHP"
-    //     ],
-    //     year: "2016",
-    //     url: "https://www.architalx.org/"
-    // },
-    // {
-    //     name: "Maine Island Trail Association",
-    //     tagline: "A custom Wordpress website for a local non-profit",
-    //     service: [
-    //         "HTML",
-    //         "CSS",
-    //         "PHP"
-    //     ],
-    //     year: "2016",
-    //     url: "https://mita.org/"
-    // },
-    // {       
-    //     name: "Tributary Funds",
-    //     tagline: "A straight-forward custom Wordpress website for a fund management company",
-    //     service: [
-    //         "HTML",
-    //         "CSS",
-    //         "PHP"
-    //     ],
-    //     year: "2016",
-    //     url: "https://www.tributaryfunds.com/"
-// }
+    }
 ]
 
 export default PastProjects;
