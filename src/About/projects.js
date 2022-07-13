@@ -13,8 +13,8 @@ const PastProjects = [
         url: "https://github.com/rbkh/bek-portfolio"
     },
     {
-        name: "Confidential Financial Company",
-        tagline: "Embedded engineer developing a React/Typescript boilerplate to be used for internal applications",
+        name: "Confidential Company",
+        tagline: "A React/Typescript boilerplate to be used for internal FinTech applications",
         service: [
             "React.js",
             "Typescript",
