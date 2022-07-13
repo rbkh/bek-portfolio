@@ -6,8 +6,8 @@ import styles from './styles.module.css';
 export default function About() {
 
     const { projectContainer, textContainer } = styles;
+    
     const renderCard = Projects.map((project) => (
-
         <Card
             key={project.name}
             {...project}

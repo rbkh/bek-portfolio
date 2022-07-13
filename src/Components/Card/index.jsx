@@ -10,11 +10,10 @@ export default function Card(props) {
     ));
 
     function renderLink(projectType, url) {
-
-        const linkText = projectType == "self" ? "See Codebase" : "See Website"
+        const linkText = projectType == "self" ? "See Codebase" : "See Website";
 
         if (!url) return null;
-
+        
         return (
             <a target="_blank" href={url}>{linkText} &#10146;</a>
         )
