@@ -5,7 +5,27 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
 
+function documentHeight() {
+
+    function getWindowHeight() {
+        return window.innerHeight;
+    }
+
+    function setWindowHeight() {
+        return document.getElementById('root').style.height = getWindowHeight()+"px";
+    }
+
+    document.addEventListener("resize", setWindowHeight);
+
+    // need to get root to rerender on resize
+
+    console.log(getWindowHeight());
+    console.log(setWindowHeight())
+
+}
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
+documentHeight();
 root.render(
     <React.StrictMode>
         <BrowserRouter>

@@ -1,5 +1,5 @@
 .App {
     /* display: flex;
-    flex-direction: column;
-    height: 100vh; */
+    flex-direction: column; */
+    /* height: calc(100vh - 51px); */
 }

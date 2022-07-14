@@ -2,7 +2,8 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    padding-top: 51px;
+    align-items: center;
+    padding-top: 54px;
 }
 
 .textContainer {
