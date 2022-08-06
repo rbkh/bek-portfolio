@@ -12,16 +12,16 @@ function documentHeight() {
     }
 
     function setWindowHeight() {
-        return document.getElementById('root').style.height = getWindowHeight()+"px";
+        const root = document.getElementById('root');
+        return root.style.height = getWindowHeight()+"px";
     }
 
-    document.addEventListener("resize", setWindowHeight);
+    function setEventListener() {
+        return window.addEventListener("resize", setWindowHeight);
+    }
 
-    // need to get root to rerender on resize
-
-    console.log(getWindowHeight());
-    console.log(setWindowHeight())
-
+    setWindowHeight();
+    setEventListener();
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
