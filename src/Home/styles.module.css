@@ -9,6 +9,7 @@
 
 .textContainer {
     padding: 0 2rem 15%;
+    border: 1px solid blue;
 }
 
 .title {
@@ -87,8 +88,8 @@
 }
 
 @media(min-width: 576px) and (max-width: 992px) and (max-height: 400px) and (orientation: landscape) {
-    .textContainer a {
-        padding-bottom: 1em;
+    .textContainer {
+        padding: 0 1rem 1rem;
     }
 
     .title {
