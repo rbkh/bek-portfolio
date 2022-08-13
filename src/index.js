@@ -11,39 +11,15 @@ function documentHeight() {
         return window.innerHeight;
     }
 
-    function setWindowHeight(event) {
-        console.log(event)
+    function setWindowHeight() {
         const root = document.getElementById('root');
-        root.style.border = "1px solid red";
-        root.innerHTML += "," + getWindowHeight();
-        return root.style.height = getWindowHeight() *1.1+"px";
-    }
-
-    function handleScreenOrientation() {
-        const landscapeQuery = window.matchMedia(`(orientation: landscape)`);
-        const portraitQuery = window.matchMedia(`(orientation: portrait)`);
-
-        console.log(landscapeQuery);
-        landscapeQuery.addEventListener('change', setWindowHeight);
-        portraitQuery.addEventListener('change', (event) => {
-            if (event.matches) {
-                setWindowHeight()
-                document.getElementById('root').style.border = "1px solid green";
-            }
-        });
-
+        root.style.height = getWindowHeight()+"px";
     }
 
     window.addEventListener('DOMContentLoaded', () => {
         setWindowHeight();
-        window.addEventListener("resize", setWindowHeight);
-        handleScreenOrientation();
+        window.visualViewport.addEventListener("resize", setWindowHeight);
     })
-
-
- 
-
-
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
