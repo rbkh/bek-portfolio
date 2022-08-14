@@ -1,7 +1,7 @@
 import './App.css';
 import { Route, Routes } from "react-router-dom";
 import AppRoutes from './routes';
-import { React } from 'react';
+import React from 'react';
 import Header from './Header';
 
 export default function App() {
