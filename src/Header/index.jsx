@@ -17,7 +17,7 @@ export default function Header() {
                     to="/about"
                     className={({ isActive }) => isActive ? `${linkStyle}` : undefined}
                 >past projects</NavLink>
-                <a target="_blank" href="https://github.com/rbkh/bek-portfolio">github</a>
+                <a target="_blank" href="https://github.com/rbkh/">github</a>
                 <a target="_blank" href="https://www.linkedin.com/in/rebekahfelker/">linkedin</a>
             </div>
         </header>

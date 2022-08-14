@@ -1,26 +1,29 @@
 .mainContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
     margin: 0 auto;
-    padding: 0 1rem 2rem;
-    height: 100vh;
+    height: 100%;
     max-width: 1260px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.textContainer {
+    padding: 0 2rem 15%;
 }
 
 .title {
     letter-spacing: -3px;
     font-size: 5em;
     margin: 0 0 0 -3px;
+    line-height: 0.9;
 }
 
 .subTitle {
     font-size: 1.2em;
-    margin: 0 0 1em 0;
+    margin: 1em 0;
 }
 
-.mainContainer a {
+.textContainer a {
     font-size: 0.9em;
 }
 
@@ -32,15 +35,11 @@
 
     .subTitle {
         font-size: 1.2em;
-        margin: 0 25% 1em 0;
+        margin: 1em 25% 1em 0;
     }
 }
 
 @media(min-width: 768px) {
-
-    .mainContainer {
-        padding: 0 2rem 3rem;
-    }
 
     .title {
         letter-spacing: -4px;
@@ -50,18 +49,15 @@
 
     .subTitle {
         font-size: 1.4em;
-        margin: 0 20% 1em 0;
+        margin: 1em 20% 1em 0;
     }
 
-    .mainContainer a {
+    .textContainer a {
         font-size: 1.2em;
     }
 }
 
 @media(min-width: 992px) {
-    .mainContainer {
-        padding: 0 2.5rem 3.75rem;
-    }
 
     .title {
         font-size: 8.5em;
@@ -75,10 +71,6 @@
 
 @media(min-width: 1200px) {
 
-    .mainContainer {
-        padding: 0 4rem 6rem;
-    }
-
     .title {
         letter-spacing: -7px;
         font-size: 10em;
@@ -89,14 +81,14 @@
         font-size: 1.8em;
     }
 
-    .mainContainer a {
+    .textContainer a {
         font-size: 1.4em;
     }
 }
 
 @media(min-width: 576px) and (max-width: 992px) and (max-height: 400px) and (orientation: landscape) {
-    .mainContainer a {
-        padding-bottom: 1em;
+    .textContainer {
+        padding: 0 1rem 1rem;
     }
 
     .title {
